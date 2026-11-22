@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "elementalgems",
+  "version": "${version}",
+  "name": "Elemental Gems",
+  "description": "Every player spawns with a soulbound elemental gem (14 gems) with a passive, two abilities and a Tier II ultimate, plus a Gem Trader, Gem Upgrader, energy system, trust list and mythical weapons. Inspired by the Bliss SMP.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.elementalgems.ElementalGems"
+    ],
+    "client": [
+      "com.elementalgems.ElementalGemsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

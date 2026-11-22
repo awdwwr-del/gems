@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DGD",
+    "GXG",
+    "DGD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "X": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "id": "elementalgems:energy_bottle",
+    "count": 1
+  }
+}
